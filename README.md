@@ -35,5 +35,5 @@ El microcontrolador a utilizar será un ESP8266 (tipo Wemos D1 Mini). El código
 
 ## Esquema
 
-[!Esquema](ControladorLEDsCocina_bb.png)
+![Esquema](ControladorLEDsCocina_bb.png)
 
