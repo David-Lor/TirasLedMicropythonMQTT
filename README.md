@@ -33,3 +33,7 @@ El microcontrolador a utilizar será un ESP8266 (tipo Wemos D1 Mini). El código
 - El funcionamiento debería poderse configurar por MQTT
 - Adicionalmente se podrían implementar controles hardware (botones, pulsadores, interruptores)
 
+## Esquema
+
+[!Esquema](ControladorLEDsCocina_bb.png)
+
