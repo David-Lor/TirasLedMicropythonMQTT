@@ -21,6 +21,7 @@ El microcontrolador a utilizar será un ESP8266 (tipo Wemos D1 Mini). El código
 - 4 relés (1 módulo de 4 relés, o 4 módulos de 1 relé) - preferiblemente SSR (relés de estado sólido)
 - PIR
 - Pin headers macho y hembra
+- Conectores (fichas/clemas) con tornillo (varias de 2 pines mínimo)
 - Placa THT (agujeros), cables, estaño, soldador / Breadboard y cables
 
 ### Software
@@ -34,10 +35,17 @@ El microcontrolador a utilizar será un ESP8266 (tipo Wemos D1 Mini). El código
 - El funcionamiento debería poderse configurar por MQTT
 - Adicionalmente se podrían implementar controles hardware (botones, pulsadores, interruptores)
 
-## Esquema usando relés
+## Esquema actual
+
+- Los relés se conectan externamente
+- La placa de relés es una placa con 4 relés sólidos
+- Las conexiones se realizan todas con fichas de 2 pines con tornillo
 
 ![Esquema](ControladorLEDsCocina_SSR_schema.png)
 
-## Esquema tipo breadboard
+## Esquema tipo breadboard (alpha)
+
+- Primer prototipo
+- La placa de relés sería una sola placa con 4 relés normales
 
 ![Esquema](ControladorLEDsCocina_bb.png)
