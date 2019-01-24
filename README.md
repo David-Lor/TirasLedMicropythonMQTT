@@ -16,10 +16,11 @@ El microcontrolador a utilizar será un ESP8266 (tipo Wemos D1 Mini). El código
 
 - Placa tipo Wemos D1 Mini
 - Fuente 12Vcc
-- Conversor 12Vcc > 5Vcc (p.ej. Buck Converter)
+- Conversor 12Vcc > 5Vcc (preferiblemente Buck Converter ajustable)
 - Tiras LED
-- 4 relés (1 módulo de 4 relés, o 4 módulos de 1 relé)
+- 4 relés (1 módulo de 4 relés, o 4 módulos de 1 relé) - preferiblemente SSR (relés de estado sólido)
 - PIR
+- Pin headers macho y hembra
 - Placa THT (agujeros), cables, estaño, soldador / Breadboard y cables
 
 ### Software
@@ -33,7 +34,10 @@ El microcontrolador a utilizar será un ESP8266 (tipo Wemos D1 Mini). El código
 - El funcionamiento debería poderse configurar por MQTT
 - Adicionalmente se podrían implementar controles hardware (botones, pulsadores, interruptores)
 
-## Esquema
+## Esquema usando relés
+
+![Esquema](ControladorLEDsCocina_SSR_schema.png)
+
+## Esquema tipo breadboard
 
 ![Esquema](ControladorLEDsCocina_bb.png)
-
